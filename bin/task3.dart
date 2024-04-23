@@ -9,7 +9,6 @@ application we did in lecture  (use the concepts of repetional and conditional s
 import 'dart:io';
 
 void main() {
-  int amount = 1000;
   print(
       '====================== Welcome to Hotel Transelvania ========================');
 
