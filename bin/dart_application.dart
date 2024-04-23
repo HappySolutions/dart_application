@@ -1,11 +1,35 @@
-void main() {
-  String weightResult = checkWeight(60);
+//import 'dart:io';
 
-  print(weightResult);
-  weekDays("sunday");
+void main() {
+  //application to find the odd numbers in range
+/*   var x = 0;
+  do {
+    if (x % 2 == 1) print(x);
+     x++;
+  } while (x < 10); */
+
+  //application to dublicate lists and print them
+/*   var num1 = [1, 2, 3, 4];
+  var num2 = [...num1];
+
+  print("first list : $num1");
+  print("second list : $num2"); */
+
+  //app to test increament and decrement
+  /* int x = 1;
+  int y = x++;
+  int z = --y;
+  print('x: $x, y: $y, z: $z'); */
+
+  //Testing the functions
+  //String weightResult = checkWeight(60);
+  //print(weightResult);
+  //weekDays("sunday");
 }
 
-String checkWeight(double weight) {
+ 
+//function to check weight using if statment
+/* String checkWeight(double weight) { 
   String result = "";
   if (weight > 90) {
     result = "fat";
@@ -16,8 +40,10 @@ String checkWeight(double weight) {
   }
   return result;
 }
+*/
 
-void weekDays(String day) {
+//function to demonstrate using switch statment
+/* void weekDays(String day) { 
   switch (day) {
     case "Saturday":
       {
@@ -71,3 +97,4 @@ void weekDays(String day) {
       break;
   }
 }
+ */
